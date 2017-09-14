@@ -15,7 +15,7 @@ public class MoodHappy extends CurrentMood {
         super(date);
     }
 
-    public String getMood(String mood){
+    public String getMood(){
         return this.mood = "Happy mood.";
     }
 

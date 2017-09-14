@@ -27,6 +27,6 @@ public abstract class CurrentMood {
         this.date = date;
     }
 
-    public abstract String getMood(String mood);
+    public abstract String getMood();
 
 }
