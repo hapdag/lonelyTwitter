@@ -11,9 +11,9 @@ public class NormalTweet extends Tweet {
         super(message);
     }
 
-    public NormalTweet(String message, Date date) {
-        super(message, date);
-    }
+//    public NormalTweet(String message, Date date) {
+//        super(message, date);
+//    }
 
     @Override
     public Boolean isImportant(){

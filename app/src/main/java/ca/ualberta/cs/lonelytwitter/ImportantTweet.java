@@ -6,15 +6,15 @@ import java.util.Date;
  * Created by Saddog on 9/14/2017.
  */
 
-public class ImportantTweet extends Tweet implements Tweetable {
+public class ImportantTweet extends Tweet  {
 
     public ImportantTweet(String message){
         super(message);
     }
 
-    public ImportantTweet(String message, Date date) {
-        super(message, date);
-    }
+//    public ImportantTweet(String message, Date date) {
+//        super(message, date);
+//    }
 
 
     @Override
